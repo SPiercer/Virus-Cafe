@@ -1,0 +1,35 @@
+name: my_startup
+description: A new Flutter project.
+
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^4.1.3
+  firebase_auth: ^0.16.1
+  cloud_firestore: ^0.13.6
+  badges: ^1.1.1
+  esc_pos_printer: ^3.2.0
+  esc_pos_utils: ^0.4.0
+  firebase_storage: ^3.1.6
+  image_picker: ^0.6.7+2
+  path: ^1.6.3
+  intl: ^0.16.1
+
+  cupertino_icons: ^0.1.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/
